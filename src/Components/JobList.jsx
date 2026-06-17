@@ -3,10 +3,15 @@ import { useContext } from "react";
 import { JobData } from "../Context/JobContext";
 import { Link } from 'react-router-dom';
 const JobList = () => {
-  const { jobs, searchQuery } = useContext(JobData)
+  const { jobs, searchQuery, activeFilter } = useContext(JobData)
 
-  const displayedJobs = (searchQuery) ? jobs.filter((item) => {
-    return item.title.toLowerCase().includes(searchQuery.toLowerCase().trim().replace(/\s+/g, " "))
+  const displayedJobs = (searchQuery && activeFilter) ? jobs.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase().trim().replace(/\s+/g, " ")) &&
+    item.type === activeFilter // Search + Filter
+  ) : (searchQuery && !activeFilter) ? jobs.filter((item) => {
+    return item.title.toLowerCase().includes(searchQuery.toLowerCase().trim().replace(/\s+/g, " ")) // Search only
+  }) : (activeFilter && !searchQuery) ? jobs.filter((item) => {
+    return item.type === activeFilter // Filter only  
   }) : jobs.slice(0, 10)
 
   const getTypeStyle = (type) => {
@@ -22,12 +27,12 @@ const JobList = () => {
     }
   };
   return (
-    <div className=' pt-2 max-h-[45vh] mt-7 flex flex-col gap-5 overflow-scroll scrollbar-none'>
+    <div className='pt-2 max-h-90 mt-7 flex flex-col gap-5 overflow-scroll scrollbar-none'>
       {displayedJobs.map((item) => {
         return (
           <Link key={item.id} to={`/jobs/${item.id}`}>
-            <div className='border  border-zinc-600 rounded-2xl' key={item.id} >
-              <div className=' border border-[#1E1E28]  rounded-2xl flex justify-between bg-zinc-800 hover:bg-[#252533] transition-colors duration-200 '>
+            <div className='border  border-zinc-600 rounded-2xl ' key={item.id} >
+              <div className=' border border-[#1E1E28] pb-1 rounded-2xl flex justify-between bg-zinc-800 hover:bg-[#252533] transition-colors duration-200 '>
                 <div className=' border-green-700 flex flex-1 gap-2 min-w-0'>
                   <img src={item.logo} alt={item.company} className=' m-2 w-12 h-12 rounded' />
                   <span className=' flex flex-col justify-center'>
@@ -38,7 +43,8 @@ const JobList = () => {
                       <span className=''>
                         {item.company} - {item.location}
                       </span>
-                      <span className={`border p-1 self-start flex  items-center rounded-2xl text-xs ${getTypeStyle(item.type)}`}>{item.type}</span>                  </div>
+                      <span className={`border p-1 self-start flex  items-center rounded-2xl text-xs ${getTypeStyle(item.type)}`}>{item.type}</span>
+                    </div>
                   </span>
                 </div>
                 <span className=' h-12 flex flex-col justify-center'>

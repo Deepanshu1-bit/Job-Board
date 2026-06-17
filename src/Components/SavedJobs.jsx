@@ -14,7 +14,7 @@ const SavedJobs = () => {
 
     return (
         <div>
-            <h3 className='flex flex-col gap-4'>{savedData.map((item) => {
+            <h3 className=' p-2 flex flex-col gap-4'>{savedData.map((item) => {
                 return <div key={item.id}>
                     <div className='border border-[#9898AA] bg-zinc-900 p-4 rounded-2xl w-80  md:mt-5 h-130 md:h-105 md:w-250'>
                         <div className=' h-15 flex justify-end md:h-25'>

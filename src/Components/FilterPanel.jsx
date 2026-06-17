@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { JobData } from '../Context/JobContext'
 
 const FilterPanel = () => {
+    const { setactiveFilter } = useContext(JobData)
     return (
-        <div className=' flex gap-3 mt-5 md:mt-10'>
-            {/* Jb kisi filter ko select kre toh ye properties lg jay like toggle */}
-            {/*border-sky-800 bg-sky-950 text-sky-200*/}
-            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200'>Full-Time</button>
-            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200'>Part-Time</button>
-            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200'>Remote</button>
-            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200'>Internship</button>
+        <div className=' flex gap-3'>
+            <button className='border rounded-full  px-4 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200 hover:bg-zinc-900' onClick={() => { setactiveFilter('') }}>All</button>
+            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200 hover:bg-zinc-900' onClick={() => { setactiveFilter('Full-time') }}>Full-Time</button>
+            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200 hover:bg-zinc-900' onClick={() => { setactiveFilter('Remote') }}>Remote</button>
+            <button className='border rounded-full  px-2 py-2 text-xs border-zinc-600 bg-zinc-800 text-zinc-200 hover:bg-zinc-900' onClick={() => { setactiveFilter('Hybrid') }}>Hybrid</button>
         </div>
     )
 }
