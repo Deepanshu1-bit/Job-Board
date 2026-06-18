@@ -8,11 +8,13 @@ const JobList = () => {
   const displayedJobs = (searchQuery && activeFilter) ? jobs.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase().trim().replace(/\s+/g, " ")) &&
     item.type === activeFilter // Search + Filter
-  ) : (searchQuery && !activeFilter) ? jobs.filter((item) => {
-    return item.title.toLowerCase().includes(searchQuery.toLowerCase().trim().replace(/\s+/g, " ")) // Search only
-  }) : (activeFilter && !searchQuery) ? jobs.filter((item) => {
-    return item.type === activeFilter // Filter only  
-  }) : jobs.slice(0, 10)
+  ) :
+    (searchQuery && !activeFilter) ? jobs.filter((item) => {
+      return item.title.toLowerCase().includes(searchQuery.toLowerCase().trim().replace(/\s+/g, " ")) // Search only
+    }) :
+      (activeFilter && !searchQuery) ? jobs.filter((item) => {
+        return item.type === activeFilter // Filter only  
+      }) : jobs.slice(0, 10)
 
   const getTypeStyle = (type) => {
     switch (type) {
