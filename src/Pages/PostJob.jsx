@@ -2,33 +2,50 @@ import React, { useContext, useState } from 'react'
 import { JobData } from '../Context/JobContext'
 
 const PostJob = () => {
-  const { jobs } = useContext(JobData)
+  const { jobs, setjobs } = useContext(JobData)
 
   const [JobTitle, setJobTitle] = useState('')
   const [Company, setCompany] = useState('')
   const [Location, setLocation] = useState('')
   const [JobType, setJobType] = useState('')
-  const [Salary, setSalary] = useState('')
+  const [Salary, setSalary] = useState()
   const [Description, setDescription] = useState('')
+  const [Skills, setSkills] = useState('')
 
-  const newJob = {
-    id: jobs.length + 1,
-    title: JobTitle,
-    company: Company,
-    location: Location,
-    type: JobType,
-    salary: Salary,
-    postedDaysAgo: 1,
-    description: Description
-  }
 
   const AddPostedJobs = ((e) => {
     e.preventDefault()
-    if (!JobTitle || !Company || !JobType || !Location || !Salary || !Description) {
-      alert('Fill all fields!')
-      return
+    if (!JobTitle || !Company || !Location || !JobType || !Salary || !Description) {
+      return alert('Fill all blanks')
     }
 
+    const newarr = {
+      id: jobs.length + 1,
+      title: JobTitle,
+      company: Company,
+      location: Location,
+      type: JobType,
+      salary: Salary,
+      description: Description,
+      postedDaysAgo: 0,
+      logo: `https://www.google.com/s2/favicons?domain=${Company}.com&sz=128`,
+      skills: Skills.split(",").map(
+        skill => skill.trim()
+      )
+    }
+
+    setjobs((prev) => [...prev, newarr])
+
+    const existing = JSON.parse(localStorage.getItem('Posted Jobs'))
+    const existingarr = Array.isArray(existing) ? existing : []
+    localStorage.setItem('Posted Jobs', JSON.stringify([...existingarr, newarr]))
+    setJobTitle('')
+    setCompany('')
+    setLocation('')
+    setJobType('')
+    setSalary('')
+    setDescription('')
+    setSkills('')
   })
 
   return (
@@ -71,8 +88,11 @@ const PostJob = () => {
             </span>
           </div>
           <span>
-            <input value={Salary} onChange={(e) => { setSalary(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type='text' placeholder='Salary' /> {/*Salary------------------ */}
+            <input value={Salary} onChange={(e) => { setSalary(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type="number" placeholder='Salary in LPA' /> {/*Salary------------------ */}
           </span>
+        </div>
+        <div >
+          <input value={Skills} onChange={(e) => { setSkills(e.target.value) }} type="text" placeholder="Skills (comma separated)" className='border border-[#9898AA] rounded p-3  w-85 md:w-140 ' />
         </div>
         <textarea value={Description} onChange={(e) => { setDescription(e.target.value) }} className='border border-[#9898AA] rounded p-2 scrollbar-none' rows='5' placeholder='Description...'></textarea>{/*Description------------------ */}
         <button type='submit' onClick={AddPostedJobs} className='p-3 rounded-2xl bg-blue-500 flex justify-center active:scale-95 transition-transform duration-150' >Post Job</button>

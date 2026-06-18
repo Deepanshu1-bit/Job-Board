@@ -5,11 +5,16 @@
     "company": "Zomato",
     "location": "Gurugram",
     "type": "Full-time",
-    "salary": "3 LPA",
+    "salary": "3 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=zomato.com&sz=128",
     "description": "Build and maintain responsive user interfaces for Zomato's customer-facing web platform, collaborating closely with designers and backend engineers.",
-    "skills": ["React", "Tailwind CSS", "JavaScript", "REST APIs"]
+    "skills": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "REST APIs"
+    ]
   },
   {
     "id": 2,
@@ -17,11 +22,16 @@
     "company": "Swiggy",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "5 LPA",
+    "salary": "5 ",
     "postedDaysAgo": 5,
     "logo": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128",
     "description": "Design and maintain scalable backend services that power Swiggy's order management and delivery tracking systems.",
-    "skills": ["Node.js", "Express", "MongoDB", "REST APIs"]
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs"
+    ]
   },
   {
     "id": 3,
@@ -29,11 +39,16 @@
     "company": "Infosys",
     "location": "Pune",
     "type": "Remote",
-    "salary": "4.5 LPA",
+    "salary": "4.5 ",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=infosys.com&sz=128",
     "description": "Develop reusable React components for enterprise client dashboards as part of a large distributed development team.",
-    "skills": ["React", "Redux", "Tailwind CSS", "JavaScript"]
+    "skills": [
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "JavaScript"
+    ]
   },
   {
     "id": 4,
@@ -41,11 +56,16 @@
     "company": "TCS",
     "location": "Hyderabad",
     "type": "Hybrid",
-    "salary": "6 LPA",
+    "salary": "6 ",
     "postedDaysAgo": 7,
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeoXKTtybKO97KRRezayc1XjFQJtsHZC_e9Q&s",
     "description": "Build and optimize backend APIs for enterprise applications, ensuring performance and security across microservices.",
-    "skills": ["Node.js", "Express", "SQL", "REST APIs"]
+    "skills": [
+      "Node.js",
+      "Express",
+      "SQL",
+      "REST APIs"
+    ]
   },
   {
     "id": 5,
@@ -53,11 +73,16 @@
     "company": "Wipro",
     "location": "Noida",
     "type": "Full-time",
-    "salary": "7 LPA",
+    "salary": "7 ",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=wipro.com&sz=128",
     "description": "Work across the full stack to deliver client web applications, from UI components to database integration.",
-    "skills": ["React", "Node.js", "MongoDB", "REST APIs"]
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "REST APIs"
+    ]
   },
   {
     "id": 6,
@@ -65,11 +90,16 @@
     "company": "Paytm",
     "location": "Delhi",
     "type": "Remote",
-    "salary": "4 LPA",
+    "salary": "4 ",
     "postedDaysAgo": 10,
     "logo": "https://images.seeklogo.com/logo-png/30/1/paytm-logo-png_seeklogo-305549.png",
     "description": "Design intuitive user flows and interfaces for Paytm's payment and wallet features, conducting user research along the way.",
-    "skills": ["Figma", "Wireframing", "Prototyping", "User Research"]
+    "skills": [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "User Research"
+    ]
   },
   {
     "id": 7,
@@ -77,11 +107,16 @@
     "company": "HCL",
     "location": "Lucknow",
     "type": "Full-time",
-    "salary": "5.5 LPA",
+    "salary": "5.5 ",
     "postedDaysAgo": 4,
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyl72m3LTkQOWa8yRGUCeyhJInU3DDi9Trg&s",
     "description": "Develop and maintain enterprise Java applications, working with Spring Boot to build robust backend modules.",
-    "skills": ["Java", "Spring Boot", "SQL", "REST APIs"]
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "REST APIs"
+    ]
   },
   {
     "id": 8,
@@ -89,11 +124,16 @@
     "company": "Accenture",
     "location": "Chennai",
     "type": "Hybrid",
-    "salary": "6.5 LPA",
+    "salary": "6.5 ",
     "postedDaysAgo": 6,
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTgwCaR9UXbSqSf2sBjmtZk6LTr6HAXnaNtg&s",
     "description": "Build data-driven backend services and automation scripts for client projects using Python and Django.",
-    "skills": ["Python", "Django", "SQL", "REST APIs"]
+    "skills": [
+      "Python",
+      "Django",
+      "SQL",
+      "REST APIs"
+    ]
   },
   {
     "id": 9,
@@ -101,11 +141,16 @@
     "company": "Tech Mahindra",
     "location": "Mumbai",
     "type": "Full-time",
-    "salary": "8 LPA",
+    "salary": "8 ",
     "postedDaysAgo": 8,
     "logo": "https://mma.prnewswire.com/media/2804444/Tech_Mahindra_New_Logo.jpg?p=facebook",
     "description": "Manage CI/CD pipelines and cloud infrastructure to ensure smooth deployment and monitoring of applications.",
-    "skills": ["Docker", "Kubernetes", "CI/CD", "AWS"]
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS"
+    ]
   },
   {
     "id": 10,
@@ -113,11 +158,16 @@
     "company": "Razorpay",
     "location": "Bengaluru",
     "type": "Remote",
-    "salary": "7.5 LPA",
+    "salary": "7.5 ",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=razorpay.com&sz=128",
     "description": "Build cross-platform mobile features for Razorpay's merchant app, focusing on smooth payment flows and performance.",
-    "skills": ["React Native", "JavaScript", "REST APIs", "Redux"]
+    "skills": [
+      "React Native",
+      "JavaScript",
+      "REST APIs",
+      "Redux"
+    ]
   },
   {
     "id": 11,
@@ -125,11 +175,16 @@
     "company": "Microsoft",
     "location": "Hyderabad",
     "type": "Hybrid",
-    "salary": "12 LPA",
+    "salary": "12 ",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
     "description": "Contribute to large-scale frontend systems for Microsoft's cloud product suite, focusing on accessibility and performance.",
-    "skills": ["React", "TypeScript", "CSS", "REST APIs"]
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "REST APIs"
+    ]
   },
   {
     "id": 12,
@@ -137,11 +192,16 @@
     "company": "Flipkart",
     "location": "Bengaluru",
     "type": "Remote",
-    "salary": "9 LPA",
+    "salary": "9 ",
     "postedDaysAgo": 4,
     "logo": "https://www.google.com/s2/favicons?domain=flipkart.com&sz=128",
     "description": "Develop high-traffic e-commerce UI components, optimizing for speed and conversion across devices.",
-    "skills": ["React", "Tailwind CSS", "JavaScript", "Redux"]
+    "skills": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Redux"
+    ]
   },
   {
     "id": 13,
@@ -149,11 +209,16 @@
     "company": "Cognizant",
     "location": "Pune",
     "type": "Full-time",
-    "salary": "5 LPA",
+    "salary": "5 ",
     "postedDaysAgo": 6,
     "logo": "https://www.google.com/s2/favicons?domain=cognizant.com&sz=128",
     "description": "Build and maintain client-facing React applications, collaborating with QA and design teams across sprints.",
-    "skills": ["React", "JavaScript", "Tailwind CSS", "Git"]
+    "skills": [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Git"
+    ]
   },
   {
     "id": 14,
@@ -161,11 +226,16 @@
     "company": "Adobe",
     "location": "Noida",
     "type": "Hybrid",
-    "salary": "14 LPA",
+    "salary": "14 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
     "description": "Work on creative-tool interfaces, building performant React components used by millions of designers worldwide.",
-    "skills": ["React", "TypeScript", "Redux", "REST APIs"]
+    "skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "REST APIs"
+    ]
   },
   {
     "id": 15,
@@ -173,11 +243,16 @@
     "company": "Amazon",
     "location": "Hyderabad",
     "type": "Full-time",
-    "salary": "15 LPA",
+    "salary": "15 ",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
     "description": "Design scalable backend services that handle millions of requests for Amazon's logistics platform.",
-    "skills": ["Java", "Spring Boot", "SQL", "AWS"]
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "AWS"
+    ]
   },
   {
     "id": 16,
@@ -185,11 +260,16 @@
     "company": "Zoho",
     "location": "Chennai",
     "type": "Remote",
-    "salary": "6 LPA",
+    "salary": "6 ",
     "postedDaysAgo": 9,
     "logo": "https://www.google.com/s2/favicons?domain=zoho.com&sz=128",
     "description": "Build backend modules for Zoho's SaaS suite, focusing on API performance and database optimization.",
-    "skills": ["Node.js", "MongoDB", "REST APIs", "SQL"]
+    "skills": [
+      "Node.js",
+      "MongoDB",
+      "REST APIs",
+      "SQL"
+    ]
   },
   {
     "id": 17,
@@ -197,11 +277,16 @@
     "company": "Flipkart",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "10 LPA",
+    "salary": "10 ",
     "postedDaysAgo": 5,
     "logo": "https://www.google.com/s2/favicons?domain=flipkart.com&sz=128",
     "description": "Own end-to-end features for Flipkart's seller dashboard, from frontend UI to backend data services.",
-    "skills": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ]
   },
   {
     "id": 18,
@@ -209,11 +294,16 @@
     "company": "Myntra",
     "location": "Bengaluru",
     "type": "Hybrid",
-    "salary": "9.5 LPA",
+    "salary": "9.5 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=myntra.com&sz=128",
     "description": "Build and maintain fashion catalog features across the stack, working with a fast-paced product team.",
-    "skills": ["React", "Node.js", "REST APIs", "SQL"]
+    "skills": [
+      "React",
+      "Node.js",
+      "REST APIs",
+      "SQL"
+    ]
   },
   {
     "id": 19,
@@ -221,11 +311,16 @@
     "company": "IBM",
     "location": "Pune",
     "type": "Full-time",
-    "salary": "8 LPA",
+    "salary": "8 ",
     "postedDaysAgo": 7,
     "logo": "https://www.google.com/s2/favicons?domain=ibm.com&sz=128",
     "description": "Develop backend automation tools and data pipelines for enterprise clients using Python.",
-    "skills": ["Python", "SQL", "REST APIs", "Django"]
+    "skills": [
+      "Python",
+      "SQL",
+      "REST APIs",
+      "Django"
+    ]
   },
   {
     "id": 20,
@@ -233,11 +328,16 @@
     "company": "Oracle",
     "location": "Bengaluru",
     "type": "Hybrid",
-    "salary": "11 LPA",
+    "salary": "11 ",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=oracle.com&sz=128",
     "description": "Maintain and enhance enterprise database-driven applications using Java and Spring frameworks.",
-    "skills": ["Java", "Spring Boot", "SQL", "Microservices"]
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Microservices"
+    ]
   },
   {
     "id": 21,
@@ -245,11 +345,16 @@
     "company": "Swiggy",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "7 LPA",
+    "salary": "7 ",
     "postedDaysAgo": 4,
     "logo": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128",
     "description": "Design seamless ordering experiences for Swiggy's app, working closely with product and engineering teams.",
-    "skills": ["Figma", "Prototyping", "User Research", "Design Systems"]
+    "skills": [
+      "Figma",
+      "Prototyping",
+      "User Research",
+      "Design Systems"
+    ]
   },
   {
     "id": 22,
@@ -257,11 +362,16 @@
     "company": "Amazon",
     "location": "Delhi",
     "type": "Remote",
-    "salary": "13 LPA",
+    "salary": "13 ",
     "postedDaysAgo": 6,
     "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
     "description": "Manage cloud infrastructure and deployment pipelines for high-availability services on AWS.",
-    "skills": ["AWS", "Docker", "Kubernetes", "CI/CD"]
+    "skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ]
   },
   {
     "id": 23,
@@ -269,11 +379,16 @@
     "company": "Google",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "20 LPA",
+    "salary": "20 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
     "description": "Design and implement scalable software systems, collaborating with cross-functional teams on core products.",
-    "skills": ["Data Structures", "Algorithms", "System Design", "Java"]
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "System Design",
+      "Java"
+    ]
   },
   {
     "id": 24,
@@ -281,11 +396,16 @@
     "company": "Meta",
     "location": "Hyderabad",
     "type": "Hybrid",
-    "salary": "22 LPA",
+    "salary": "22 ",
     "postedDaysAgo": 5,
     "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
     "description": "Build features for large-scale social platforms, focusing on performance and reliability at scale.",
-    "skills": ["React", "GraphQL", "System Design", "JavaScript"]
+    "skills": [
+      "React",
+      "GraphQL",
+      "System Design",
+      "JavaScript"
+    ]
   },
   {
     "id": 25,
@@ -293,11 +413,16 @@
     "company": "Wipro",
     "location": "Pune",
     "type": "Full-time",
-    "salary": "4.5 LPA",
+    "salary": "4.5 ",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=wipro.com&sz=128",
     "description": "Design and execute test cases for client applications, identifying bugs before release.",
-    "skills": ["Selenium", "Manual Testing", "Test Cases", "Automation"]
+    "skills": [
+      "Selenium",
+      "Manual Testing",
+      "Test Cases",
+      "Automation"
+    ]
   },
   {
     "id": 26,
@@ -305,11 +430,16 @@
     "company": "Capgemini",
     "location": "Chennai",
     "type": "Hybrid",
-    "salary": "5 LPA",
+    "salary": "5 ",
     "postedDaysAgo": 6,
     "logo": "https://www.google.com/s2/favicons?domain=capgemini.com&sz=128",
     "description": "Perform manual and automated testing for enterprise software, ensuring quality across releases.",
-    "skills": ["Selenium", "Automation", "Test Cases", "Java"]
+    "skills": [
+      "Selenium",
+      "Automation",
+      "Test Cases",
+      "Java"
+    ]
   },
   {
     "id": 27,
@@ -317,11 +447,16 @@
     "company": "Deloitte",
     "location": "Gurugram",
     "type": "Full-time",
-    "salary": "7 LPA",
+    "salary": "7 ",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=deloitte.com&sz=128",
     "description": "Analyze client data to generate actionable business insights and build reporting dashboards.",
-    "skills": ["SQL", "Excel", "Power BI", "Python"]
+    "skills": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Python"
+    ]
   },
   {
     "id": 28,
@@ -329,11 +464,16 @@
     "company": "PwC",
     "location": "Mumbai",
     "type": "Hybrid",
-    "salary": "6.5 LPA",
+    "salary": "6.5 ",
     "postedDaysAgo": 4,
     "logo": "https://www.google.com/s2/favicons?domain=pwc.com&sz=128",
     "description": "Support consulting teams with data cleaning, visualization, and reporting for client engagements.",
-    "skills": ["SQL", "Excel", "Power BI", "Data Visualization"]
+    "skills": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Data Visualization"
+    ]
   },
   {
     "id": 29,
@@ -341,11 +481,16 @@
     "company": "Flipkart",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "18 LPA",
+    "salary": "18 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=flipkart.com&sz=128",
     "description": "Build predictive models to improve product recommendations and customer retention.",
-    "skills": ["Python", "Machine Learning", "SQL", "Pandas"]
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Pandas"
+    ]
   },
   {
     "id": 30,
@@ -353,11 +498,16 @@
     "company": "Amazon",
     "location": "Hyderabad",
     "type": "Remote",
-    "salary": "21 LPA",
+    "salary": "21 ",
     "postedDaysAgo": 7,
     "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
     "description": "Develop machine learning models to optimize logistics and demand forecasting at scale.",
-    "skills": ["Python", "Machine Learning", "SQL", "AWS"]
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "AWS"
+    ]
   },
   {
     "id": 31,
@@ -365,11 +515,16 @@
     "company": "Paytm",
     "location": "Noida",
     "type": "Full-time",
-    "salary": "9 LPA",
+    "salary": "9 ",
     "postedDaysAgo": 3,
     "logo": "https://images.seeklogo.com/logo-png/30/1/paytm-logo-png_seeklogo-305549.png",
     "description": "Build and maintain Android features for Paytm's payments app, focusing on security and performance.",
-    "skills": ["Kotlin", "Android SDK", "REST APIs", "Java"]
+    "skills": [
+      "Kotlin",
+      "Android SDK",
+      "REST APIs",
+      "Java"
+    ]
   },
   {
     "id": 32,
@@ -377,11 +532,16 @@
     "company": "PhonePe",
     "location": "Bengaluru",
     "type": "Hybrid",
-    "salary": "11 LPA",
+    "salary": "11 ",
     "postedDaysAgo": 5,
     "logo": "https://www.google.com/s2/favicons?domain=phonepe.com&sz=128",
     "description": "Develop new features for PhonePe's Android app, working closely with backend and design teams.",
-    "skills": ["Kotlin", "Android SDK", "REST APIs", "Git"]
+    "skills": [
+      "Kotlin",
+      "Android SDK",
+      "REST APIs",
+      "Git"
+    ]
   },
   {
     "id": 33,
@@ -389,11 +549,16 @@
     "company": "Razorpay",
     "location": "Bengaluru",
     "type": "Remote",
-    "salary": "12 LPA",
+    "salary": "12 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=razorpay.com&sz=128",
     "description": "Build smooth and secure payment experiences for Razorpay's iOS application.",
-    "skills": ["Swift", "Xcode", "REST APIs", "UIKit"]
+    "skills": [
+      "Swift",
+      "Xcode",
+      "REST APIs",
+      "UIKit"
+    ]
   },
   {
     "id": 34,
@@ -401,11 +566,16 @@
     "company": "Swiggy",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "13 LPA",
+    "salary": "13 ",
     "postedDaysAgo": 6,
     "logo": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128",
     "description": "Develop and optimize iOS features for Swiggy's food delivery app, focusing on user experience.",
-    "skills": ["Swift", "UIKit", "REST APIs", "Xcode"]
+    "skills": [
+      "Swift",
+      "UIKit",
+      "REST APIs",
+      "Xcode"
+    ]
   },
   {
     "id": 35,
@@ -413,11 +583,16 @@
     "company": "Zomato",
     "location": "Gurugram",
     "type": "Full-time",
-    "salary": "25 LPA",
+    "salary": "25 ",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=zomato.com&sz=128",
     "description": "Define product roadmaps and work with engineering teams to deliver features that improve user experience.",
-    "skills": ["Roadmapping", "Agile", "Stakeholder Management", "Analytics"]
+    "skills": [
+      "Roadmapping",
+      "Agile",
+      "Stakeholder Management",
+      "Analytics"
+    ]
   },
   {
     "id": 36,
@@ -425,11 +600,16 @@
     "company": "Myntra",
     "location": "Bengaluru",
     "type": "Hybrid",
-    "salary": "23 LPA",
+    "salary": "23 ",
     "postedDaysAgo": 4,
     "logo": "https://www.google.com/s2/favicons?domain=myntra.com&sz=128",
     "description": "Lead product strategy for fashion discovery features, collaborating across design and engineering.",
-    "skills": ["Roadmapping", "Agile", "Analytics", "User Research"]
+    "skills": [
+      "Roadmapping",
+      "Agile",
+      "Analytics",
+      "User Research"
+    ]
   },
   {
     "id": 37,
@@ -437,11 +617,16 @@
     "company": "TCS",
     "location": "Lucknow",
     "type": "Full-time",
-    "salary": "3.5 LPA",
+    "salary": "3.5 ",
     "postedDaysAgo": 8,
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeoXKTtybKO97KRRezayc1XjFQJtsHZC_e9Q&s",
     "description": "Handle recruitment, onboarding, and employee engagement activities for a large workforce.",
-    "skills": ["Recruitment", "Communication", "MS Office", "Onboarding"]
+    "skills": [
+      "Recruitment",
+      "Communication",
+      "MS Office",
+      "Onboarding"
+    ]
   },
   {
     "id": 38,
@@ -449,11 +634,16 @@
     "company": "Infosys",
     "location": "Pune",
     "type": "Hybrid",
-    "salary": "4 LPA",
+    "salary": "4 ",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=infosys.com&sz=128",
     "description": "Support talent acquisition and HR operations, coordinating interviews and maintaining employee records.",
-    "skills": ["Recruitment", "Communication", "MS Office", "HR Operations"]
+    "skills": [
+      "Recruitment",
+      "Communication",
+      "MS Office",
+      "HR Operations"
+    ]
   },
   {
     "id": 39,
@@ -461,11 +651,16 @@
     "company": "IBM",
     "location": "Bengaluru",
     "type": "Full-time",
-    "salary": "14 LPA",
+    "salary": "14 ",
     "postedDaysAgo": 2,
     "logo": "https://www.google.com/s2/favicons?domain=ibm.com&sz=128",
     "description": "Manage cloud infrastructure and deployments for enterprise clients, ensuring scalability and security.",
-    "skills": ["AWS", "Azure", "Docker", "Terraform"]
+    "skills": [
+      "AWS",
+      "Azure",
+      "Docker",
+      "Terraform"
+    ]
   },
   {
     "id": 40,
@@ -473,11 +668,16 @@
     "company": "Oracle",
     "location": "Hyderabad",
     "type": "Remote",
-    "salary": "15 LPA",
+    "salary": "15 ",
     "postedDaysAgo": 5,
     "logo": "https://www.google.com/s2/favicons?domain=oracle.com&sz=128",
     "description": "Design and maintain cloud-based database solutions, optimizing for performance and cost.",
-    "skills": ["Azure", "Docker", "SQL", "Terraform"]
+    "skills": [
+      "Azure",
+      "Docker",
+      "SQL",
+      "Terraform"
+    ]
   },
   {
     "id": 41,
@@ -485,11 +685,16 @@
     "company": "Microsoft",
     "location": "Hyderabad",
     "type": "Full-time",
-    "salary": "24 LPA",
+    "salary": "24 ",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
     "description": "Build and deploy machine learning models for cloud-based AI products used by enterprise customers.",
-    "skills": ["Python", "TensorFlow", "Machine Learning", "Azure"]
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Machine Learning",
+      "Azure"
+    ]
   },
   {
     "id": 42,
@@ -497,11 +702,16 @@
     "company": "Adobe",
     "location": "Noida",
     "type": "Hybrid",
-    "salary": "22 LPA",
+    "salary": "22 ",
     "postedDaysAgo": 6,
     "logo": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
     "description": "Develop ML models for creative tools, improving features like image recognition and automation.",
-    "skills": ["Python", "PyTorch", "Machine Learning", "SQL"]
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Machine Learning",
+      "SQL"
+    ]
   },
   {
     "id": 43,
@@ -509,11 +719,16 @@
     "company": "Zoho",
     "location": "Chennai",
     "type": "Remote",
-    "salary": "3.5 LPA",
+    "salary": "3.5 ",
     "postedDaysAgo": 9,
     "logo": "https://www.google.com/s2/favicons?domain=zoho.com&sz=128",
     "description": "Build and customize WordPress websites for marketing campaigns and internal portals.",
-    "skills": ["WordPress", "PHP", "HTML/CSS", "MySQL"]
+    "skills": [
+      "WordPress",
+      "PHP",
+      "HTML/CSS",
+      "MySQL"
+    ]
   },
   {
     "id": 44,
@@ -521,11 +736,16 @@
     "company": "Cognizant",
     "location": "Pune",
     "type": "Full-time",
-    "salary": "4 LPA",
+    "salary": "4 ",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=cognizant.com&sz=128",
     "description": "Develop and maintain client WordPress sites, including custom themes and plugins.",
-    "skills": ["WordPress", "PHP", "JavaScript", "MySQL"]
+    "skills": [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "MySQL"
+    ]
   },
   {
     "id": 45,
@@ -533,11 +753,16 @@
     "company": "Myntra",
     "location": "Bengaluru",
     "type": "Hybrid",
-    "salary": "4.5 LPA",
+    "salary": "4.5 ",
     "postedDaysAgo": 4,
     "logo": "https://www.google.com/s2/favicons?domain=myntra.com&sz=128",
     "description": "Create visual assets for marketing campaigns and product pages across digital platforms.",
-    "skills": ["Photoshop", "Illustrator", "Branding", "Canva"]
+    "skills": [
+      "Photoshop",
+      "Illustrator",
+      "Branding",
+      "Canva"
+    ]
   },
   {
     "id": 46,
@@ -545,11 +770,16 @@
     "company": "Paytm",
     "location": "Delhi",
     "type": "Remote",
-    "salary": "5 LPA",
+    "salary": "5",
     "postedDaysAgo": 2,
     "logo": "https://images.seeklogo.com/logo-png/30/1/paytm-logo-png_seeklogo-305549.png",
     "description": "Design promotional graphics and UI assets for app campaigns and social media.",
-    "skills": ["Photoshop", "Illustrator", "Canva", "Branding"]
+    "skills": [
+      "Photoshop",
+      "Illustrator",
+      "Canva",
+      "Branding"
+    ]
   },
   {
     "id": 47,
@@ -557,11 +787,16 @@
     "company": "Accenture",
     "location": "Chennai",
     "type": "Full-time",
-    "salary": "8 LPA",
+    "salary": "8",
     "postedDaysAgo": 7,
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTgwCaR9UXbSqSf2sBjmtZk6LTr6HAXnaNtg&s",
     "description": "Gather business requirements and translate them into technical specifications for development teams.",
-    "skills": ["SQL", "Excel", "Documentation", "Stakeholder Communication"]
+    "skills": [
+      "SQL",
+      "Excel",
+      "Documentation",
+      "Stakeholder Communication"
+    ]
   },
   {
     "id": 48,
@@ -569,11 +804,16 @@
     "company": "Deloitte",
     "location": "Gurugram",
     "type": "Hybrid",
-    "salary": "9 LPA",
+    "salary": "9",
     "postedDaysAgo": 3,
     "logo": "https://www.google.com/s2/favicons?domain=deloitte.com&sz=128",
     "description": "Analyze business processes and recommend improvements for client operations and reporting.",
-    "skills": ["SQL", "Excel", "Process Analysis", "Stakeholder Communication"]
+    "skills": [
+      "SQL",
+      "Excel",
+      "Process Analysis",
+      "Stakeholder Communication"
+    ]
   },
   {
     "id": 49,
@@ -581,11 +821,16 @@
     "company": "Tech Mahindra",
     "location": "Mumbai",
     "type": "Full-time",
-    "salary": "6 LPA",
+    "salary": "6",
     "postedDaysAgo": 5,
     "logo": "https://mma.prnewswire.com/media/2804444/Tech_Mahindra_New_Logo.jpg?p=facebook",
     "description": "Maintain and troubleshoot enterprise network infrastructure, ensuring uptime and security.",
-    "skills": ["Networking Protocols", "Firewalls", "CCNA", "Troubleshooting"]
+    "skills": [
+      "Networking Protocols",
+      "Firewalls",
+      "CCNA",
+      "Troubleshooting"
+    ]
   },
   {
     "id": 50,
@@ -593,11 +838,16 @@
     "company": "HCL",
     "location": "Lucknow",
     "type": "Hybrid",
-    "salary": "5.5 LPA",
+    "salary": "5.5",
     "postedDaysAgo": 8,
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyl72m3LTkQOWa8yRGUCeyhJInU3DDi9Trg&s",
     "description": "Configure and monitor network systems for client infrastructure, resolving connectivity issues.",
-    "skills": ["Networking Protocols", "Firewalls", "Troubleshooting", "CCNA"]
+    "skills": [
+      "Networking Protocols",
+      "Firewalls",
+      "Troubleshooting",
+      "CCNA"
+    ]
   },
   {
     "id": 51,
@@ -605,11 +855,16 @@
     "company": "Swiggy",
     "location": "Bengaluru",
     "type": "Remote",
-    "salary": "3.5 LPA",
+    "salary": "3.5",
     "postedDaysAgo": 1,
     "logo": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128",
     "description": "Write engaging content for app notifications, blog posts, and marketing campaigns.",
-    "skills": ["SEO", "Copywriting", "Content Strategy", "Research"]
+    "skills": [
+      "SEO",
+      "Copywriting",
+      "Content Strategy",
+      "Research"
+    ]
   },
   {
     "id": 52,
@@ -617,10 +872,15 @@
     "company": "Zomato",
     "location": "Gurugram",
     "type": "Hybrid",
-    "salary": "4 LPA",
+    "salary": "4",
     "postedDaysAgo": 6,
     "logo": "https://www.google.com/s2/favicons?domain=zomato.com&sz=128",
     "description": "Create content for restaurant listings, app copy, and promotional emails.",
-    "skills": ["SEO", "Copywriting", "Content Strategy", "Research"]
+    "skills": [
+      "SEO",
+      "Copywriting",
+      "Content Strategy",
+      "Research"
+    ]
   }
 ]

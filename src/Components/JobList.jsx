@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext } from "react";
 import { JobData } from "../Context/JobContext";
 import { Link } from 'react-router-dom';
+
 const JobList = () => {
   const { jobs, searchQuery, activeFilter } = useContext(JobData)
 
@@ -51,7 +52,7 @@ const JobList = () => {
                 </div>
                 <span className=' h-12 flex flex-col justify-center'>
 
-                  <span className=' m-1 p-2 h-5 flex items-center rounded-2xl text-xs bg-[#735A30] text-[#C8AD7B]'>{item.salary}</span>
+                  <span className=' m-1 p-2 h-5 flex items-center rounded-2xl text-xs bg-[#735A30] text-[#C8AD7B]'>{item.salary} LPA</span>
                   <span className=' flex justify-center text-xs text-[rgb(149,147,138)]'>{item.postedDaysAgo}d ago</span>
                 </span>
               </div>
