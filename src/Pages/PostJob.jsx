@@ -92,7 +92,7 @@ const PostJob = () => {
           </span>
         </div>
         <div >
-          <input value={Skills} onChange={(e) => { setSkills(e.target.value) }} type="text" placeholder="Skills (comma separated)" className='border border-[#9898AA] rounded p-3  w-85 md:w-140 ' />
+          <input value={Skills} onChange={(e) => { setSkills(e.target.value) }} type="text" placeholder="Skills (comma separated)" className='border border-[#9898AA] rounded p-3  w-76 md:w-140 ' />
         </div>
         <textarea value={Description} onChange={(e) => { setDescription(e.target.value) }} className='border border-[#9898AA] rounded p-2 scrollbar-none' rows='5' placeholder='Description...'></textarea>{/*Description------------------ */}
         <button type='submit' onClick={AddPostedJobs} className='p-3 rounded-2xl bg-blue-500 flex justify-center active:scale-95 transition-transform duration-150' >Post Job</button>

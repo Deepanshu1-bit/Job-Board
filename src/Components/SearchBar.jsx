@@ -6,7 +6,7 @@ const SearchBar = () => {
 
     return (
         <div>
-            <input value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value) }} type='search' placeholder='Search by job role...' className='border border-white rounded-2xl p-3 mt-5 w-70 md:mt-10 md:w-100 active:text-red-200 hover:border-blue-300' />
+            <input value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value) }} type='search' placeholder='Search by job role...' className='border border-white rounded-2xl p-3 mt-5 w-70 md:mt-10 md:w-100  hover:border-blue-300' />
 
         </div>
     )

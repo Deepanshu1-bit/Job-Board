@@ -27,7 +27,7 @@ const JobDetails = () => {
         </div>
         <div className=' flex flex-col gap-5'>
           <h3 className=' mt-5 text-2xl md:text-4xl  font-semibold'>{job.title}</h3>
-          <p className=' text-[#9898AA] flex gap-2 md:text-md font-medium '>{job.company} · {job.location} · {job.type} · {job.salary}</p>
+          <p className=' text-[#9898AA] flex gap-2 md:text-md font-medium '>{job.company} · {job.location} · {job.type} · {job.salary} LPA</p>
           <p className='  text-[#9898AA] flex gap-2 md:text-md font-medium tracking-wider md:tracking-wide'>{job.description}</p>
           <div className=' flex gap-2 flex-wrap '>
             {job.skills.map((item, index) => {
