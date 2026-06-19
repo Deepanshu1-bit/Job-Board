@@ -41,17 +41,20 @@ const ApplyForm = () => {
 
   return (
     <form onSubmit={submitform} className='flex justify-center mt-20' >
-      <div className='border border-[#9898AA] bg-zinc-900 flex flex-col gap-5 rounded-2xl w-85 md:w-150 p-4'>
-        <input value={FullName} onChange={(e) => { setFullName(e.target.value) }} type='text' placeholder='Full Name' className='border border-[#9898AA] rounded p-3' />{/* Full name------------------ */}
+      <div className='border border-[#9898AA] bg-zinc-900  flex flex-col gap-5 rounded-2xl w-85 md:w-150 p-4 hover:border-t-4 hover:border-t-blue-400  hover:shadow-xl hover:shadow-gray-900'>
+        <span>
+          <h1 className='  text-2xl md:text-4xl font-bold'>Apply for job</h1>
+        </span>
+        <input value={FullName} onChange={(e) => { setFullName(e.target.value) }} type='text' placeholder='Full Name' className='border border-[#9898AA] hover:border-white rounded-xl p-3' />{/* Full name------------------ */}
         <div className='flex gap-4'>
           <span>
-            <input value={Email} onChange={(e) => { setEmail(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type='email' placeholder='E-mail' />{/*E-Mail------------------ */}
+            <input value={Email} onChange={(e) => { setEmail(e.target.value) }} className='border border-[#9898AA] hover:border-white rounded-xl p-2 w-36 md:w-68' type='email' placeholder='E-mail' />{/*E-Mail------------------ */}
           </span>
           <span>
-            <input value={MobileNumber} onChange={(e) => { setMobileNumber(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type='text' placeholder='Mobile Number' />{/*Mobile Number------------------ */}
+            <input value={MobileNumber} onChange={(e) => { setMobileNumber(e.target.value) }} className='border border-[#9898AA] hover:border-white rounded-xl p-2 w-36 md:w-68' type='text' placeholder='Mobile Number' />{/*Mobile Number------------------ */}
           </span>
         </div>
-        <input value={ResumeLink} onChange={(e) => setResumeLink(e.target.value)} type='url' placeholder='Resume link' className='border border-[#9898AA] rounded p-3' /> {/*Resume Link------------------ */}
+        <input value={ResumeLink} onChange={(e) => setResumeLink(e.target.value)} type='url' placeholder='Resume link' className='border border-[#9898AA] hover:border-white rounded-xl p-3' /> {/*Resume Link------------------ */}
 
         <button onClick={submitform} type='submit' className='p-3 rounded-2xl bg-blue-500 flex justify-center active:scale-95 transition-transform duration-150' >Submit</button>
       </div>

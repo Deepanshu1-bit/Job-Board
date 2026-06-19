@@ -21,7 +21,7 @@ const JobDetails = () => {
 
   return (
     <div className='p-4 sm:p-6 flex justify-center'>
-      <div className='border border-[#9898AA] bg-zinc-900 p-4 rounded-2xl w-80  md:mt-20 h-130 md:h-120 md:w-150'>
+      <div className='border border-[#9898AA] bg-zinc-900 p-4 rounded-2xl w-80  md:mt-20 h-130 md:h-120 md:w-150 hover:border-t-4 hover:border-t-red-400  hover:shadow-xl hover:shadow-gray-900'>
         <div className=' h-15 flex justify-end md:h-25'>
           <img src={job.logo} alt={`${job.company}`} className='w-17  h-17  md:w-25 md:h-25 rounded-2xl' />
         </div>

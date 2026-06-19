@@ -50,20 +50,20 @@ const PostJob = () => {
 
   return (
     <form className='flex justify-center mt-20' >
-      <div className='border border-[#9898AA] bg-zinc-900 flex flex-col gap-5 rounded-2xl w-85 md:w-150 p-4'>
+      <div className='border border-[#9898AA] bg-zinc-900 flex flex-col gap-5 rounded-2xl w-85 md:w-150 p-4 hover:border-t-4 hover:border-t-blue-400  hover:shadow-xl hover:shadow-gray-900'>
         <h1 className='text-2xl font-bold'>Post a new job</h1>
-        <input value={JobTitle} onChange={(e) => { setJobTitle(e.target.value) }} type='search' placeholder='Job title' className='border border-[#9898AA] rounded p-3' />{/* Job title------------------ */}
+        <input value={JobTitle} onChange={(e) => { setJobTitle(e.target.value) }} type='search' placeholder='Job title' className='border border-[#9898AA] rounded-2xl p-3  hover:border-white' />{/* Job title------------------ */}
         <div className='flex gap-4'>
           <span>
-            <input value={Company} onChange={(e) => { setCompany(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type='text' placeholder='Company' />{/*Company------------------ */}
+            <input value={Company} onChange={(e) => { setCompany(e.target.value) }} className='border border-[#9898AA]  rounded-2xl p-2 w-36 md:w-68  hover:border-white' type='text' placeholder='Company' />{/*Company------------------ */}
           </span>
           <span>
-            <input value={Location} onChange={(e) => { setLocation(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type='text' placeholder='Location' />{/*Location------------------ */}
+            <input value={Location} onChange={(e) => { setLocation(e.target.value) }} className='border border-[#9898AA]  rounded-2xl p-2 w-36 md:w-68  hover:border-white' type='text' placeholder='Location' />{/*Location------------------ */}
           </span>
         </div>
         <div className='flex gap-4'>
           <div className="relative">
-            <select value={JobType} onChange={(e) => { setJobType(e.target.value) }} className="appearance-none border border-[#9898AA] text-[#9898AA] bg-zinc-900 rounded p-2 pr-10 w-36 md:w-68">{/*Job type------------------ */}
+            <select value={JobType} onChange={(e) => { setJobType(e.target.value) }} className="appearance-none border border-[#9898AA] text-[#9898AA] bg-zinc-900  rounded-2xl p-2 pr-10 w-36 md:w-68  hover:border-white">{/*Job type------------------ */}
               <option value="" disabled defaultValue>Job type</option>
               <option value={'Full-time'}>Full-Time</option>
               <option value={'Remote'}>Remote</option>
@@ -88,13 +88,13 @@ const PostJob = () => {
             </span>
           </div>
           <span>
-            <input value={Salary} onChange={(e) => { setSalary(e.target.value) }} className='border border-[#9898AA] rounded p-2 w-36 md:w-68' type="number" placeholder='Salary in LPA' /> {/*Salary------------------ */}
+            <input value={Salary} onChange={(e) => { setSalary(e.target.value) }} className='border border-[#9898AA]  rounded-2xl p-2 w-36 md:w-68  hover:border-white' type="number" placeholder='Salary in LPA' /> {/*Salary------------------ */}
           </span>
         </div>
         <div >
-          <input value={Skills} onChange={(e) => { setSkills(e.target.value) }} type="text" placeholder="Skills (comma separated)" className='border border-[#9898AA] rounded p-3  w-76 md:w-140 ' />
+          <input value={Skills} onChange={(e) => { setSkills(e.target.value) }} type="text" placeholder="Skills (comma separated)" className='border border-[#9898AA]  rounded-2xl p-3  w-76 md:w-140  hover:border-white ' />
         </div>
-        <textarea value={Description} onChange={(e) => { setDescription(e.target.value) }} className='border border-[#9898AA] rounded p-2 scrollbar-none' rows='5' placeholder='Description...'></textarea>{/*Description------------------ */}
+        <textarea value={Description} onChange={(e) => { setDescription(e.target.value) }} className='border border-[#9898AA]  rounded p-2 scrollbar-none  hover:border-white' rows='5' placeholder='Description...'></textarea>{/*Description------------------ */}
         <button type='submit' onClick={AddPostedJobs} className='p-3 rounded-2xl bg-blue-500 flex justify-center active:scale-95 transition-transform duration-150' >Post Job</button>
       </div>
     </form>

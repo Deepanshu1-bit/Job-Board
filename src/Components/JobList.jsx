@@ -34,8 +34,8 @@ const JobList = () => {
         return (
           <Link key={item.id} to={`/jobs/${item.id}`}>
             <div className='border  border-zinc-600 rounded-2xl ' key={item.id} >
-              <div className=' border border-[#1E1E28] pb-1 rounded-2xl flex justify-between bg-zinc-800 hover:bg-[#252533] transition-colors duration-200 '>
-                <div className=' border-green-700 flex flex-1 gap-2 min-w-0'>
+              <div className=' border border-[#1E1E28]  bg-zinc-800 hover:bg-[#2a2a3a] pb-1 rounded-2xl flex justify-between transition-colors duration-200 '>
+                <div className='flex flex-1 gap-2 min-w-0'>
                   <img src={item.logo} alt={item.company} className=' m-2 w-12 h-12 rounded' />
                   <span className=' flex flex-col justify-center'>
                     <span className=' text-lg md:text-2xl'>

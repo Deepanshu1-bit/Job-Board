@@ -21,7 +21,7 @@ const SavedJobs = () => {
             ) : (
                 savedData.map((item) => (
                     <div key={item.id}>
-                        <div className='border border-[#9898AA] bg-zinc-900 p-4 rounded-2xl w-80 md:mt-5 h-130 md:h-105 md:w-250'>
+                        <div className='border border-[#9898AA] bg-zinc-900 p-4 rounded-2xl w-80 md:mt-5 h-130 md:h-105 md:w-250  hover:border-b-4 hover:border-b-blue-400  hover:shadow-xl hover:shadow-gray-900'>
                             <div className='h-15 flex justify-end md:h-25'>
                                 <img src={item.logo} alt={`${item.company}`} className='w-17 h-17 md:w-25 md:h-25 rounded-2xl' />
                             </div>

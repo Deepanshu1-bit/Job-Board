@@ -1,15 +1,15 @@
 import React from 'react'
 import SearchBar from '../Components/SearchBar'
 import FilterPanel from '../Components/FilterPanel'
-import JobList from '../Components/JobList' 
+import JobList from '../Components/JobList'
 
 const Home = () => {
     return (
         <div className=' p-8 sm:p-6 flex flex-col md:items-center '>
-            <div>
-                <div className=' -mx-8 sm:-mx-6 p-9 pt-3 md:pt-9 sm:px-6 '>
-                    <span>
-                        <h3 className='text-2xl md:text-6xl font-bold'>Find your next job</h3>
+            <div className='md:w-180'>
+                <div className='border border-zinc-600  bg-zinc-900 rounded-2xl p-5 mb-10 md:p-6 md:mb-10 md:mt-10'>
+                    <span className='flex justify-center'>
+                        <h1 className='text-2xl md:text-6xl font-bold'>Find your next  <span className='text-red-500 underline hover:text-blue-400'> Job</span></h1>
                     </span>
                     <SearchBar />
                 </div>
