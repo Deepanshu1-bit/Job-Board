@@ -10,4 +10,4 @@ A React + Vite job board application.
 - LocalStorage persistence
 
 ## Live Demo
-https://job-board-liart-eta.vercel.app/
+https://job-board-git-main-deepanshu10.vercel.app
