@@ -8,7 +8,7 @@ const PostJob = () => {
   const [Company, setCompany] = useState('')
   const [Location, setLocation] = useState('')
   const [JobType, setJobType] = useState('')
-  const [Salary, setSalary] = useState()
+  const [Salary, setSalary] = useState('')
   const [Description, setDescription] = useState('')
   const [Skills, setSkills] = useState('')
 

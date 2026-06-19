@@ -24,7 +24,7 @@ const Navbar = () => {
             </span>
             {/* --------Saved job and post Job btns---------------------------------- */}
             <span className=' flex gap-5 md:gap-10'>
-                <Link to={'/Saved-job'} className='border rounded p-1 flex items-center active:bg-zinc-800 md:border-0 md:border-b-2 md:border-transparent md:hover:border-b-purple-500'>Saved Job</Link>
+                <Link to={'/saved-job'} className='border rounded p-1 flex items-center active:bg-zinc-800 md:border-0 md:border-b-2 md:border-transparent md:hover:border-b-purple-500'>Saved Job</Link>
                 <Link to={'/post-job'} className='border border-zinc-700 p-1 flex rounded gap-1 shrink-0 items-center active:bg-zinc-800 hover:bg-zinc-800'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

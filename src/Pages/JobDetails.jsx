@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { JobData } from '../Context/JobContext';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
   const { jobs } = useContext(JobData)
@@ -10,6 +10,9 @@ const JobDetails = () => {
 
   const clicksavejob = (() => {
     const prev = JSON.parse(localStorage.getItem('Saved Jobs')) || []
+
+    const alreadySaved = prev.some((item) => item.id === job.id)
+    if (alreadySaved) return alert('Job already saved!')
 
     const updatedJobs = [...prev, job]
     localStorage.setItem('Saved Jobs', JSON.stringify(updatedJobs))
@@ -31,8 +34,14 @@ const JobDetails = () => {
               return <span key={index} className='border border-zinc-600 text-zinc-400 bg-zinc-800 hover:bg-[#252533] rounded-3xl py-1 px-2'>{item}</span>
             })}
           </div>
-          <button onClick={clicksavejob} className=' border-blue-400 p-3 rounded-2xl bg-blue-500 flex justify-center gap-2 items-center active:scale-95 transition-transform duration-150' >
-            Save Job</button>
+          <div className='flex gap-4'>
+            <button onClick={clicksavejob} className=' border-blue-400 p-3 w-33 md:w-65 rounded-2xl bg-blue-500 flex justify-center gap-2 items-center active:scale-95 transition-transform duration-150' >
+              Save Job</button>
+            <Link to={'/apply'}>
+              <button className=' border-red-400 bg-red-500 p-3 w-34 md:w-65 rounded-2xl  flex justify-center gap-2 items-center active:scale-95 transition-transform duration-150' >
+                Apply</button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { JobData } from '../Context/JobContext'
+import React, { useState } from 'react'
 
 const SavedJobs = () => {
     const [savedData, setsavedData] = useState(
