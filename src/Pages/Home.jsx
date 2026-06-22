@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className=' p-8 sm:p-6 flex flex-col md:items-center '>
             <div className='md:w-180'>
-                <div className='border border-zinc-600  bg-zinc-900 rounded-2xl p-5 mb-10 md:p-6 md:mb-10 md:mt-10'>
+                <div className=' bg-zinc-900 rounded-2xl p-5 mb-10 md:p-6 md:mb-10 md:mt-10'>
                     <span className='flex justify-center'>
                         <h1 className='text-2xl md:text-6xl font-bold'>Find your next  <span className='text-red-500 underline hover:text-blue-400'> Job</span></h1>
                     </span>
